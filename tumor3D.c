@@ -374,6 +374,7 @@ void reacDiff(Celula ***rede, int x, int y, int z, int tipo){
 			cc = 0.0;
 		}
 	}
+	/*
 	else{
 		d = DB;
 		if(rede[x][y][z].tipo=='s'){
@@ -392,6 +393,7 @@ void reacDiff(Celula ***rede, int x, int y, int z, int tipo){
 			cc = 0.0;
 		}
 	}
+	*/
 
     rede[x][y][z].c2[tipo] = rede[x][y][z].c[tipo]
                             + (d*laplaceNum(rede, x, y, z, tipo))

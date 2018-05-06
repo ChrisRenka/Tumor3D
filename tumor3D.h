@@ -2,9 +2,9 @@
 #define TUMOR3D_H
 
 #define TAM 100
-#define PASSOS 3000
-#define PASSOS_INIC 300
-#define VASOS 35
+#define PASSOS 500
+#define PASSOS_INIC 30
+#define VASOS 55
 #define ISIM 100
 
 #define H 1
@@ -12,12 +12,8 @@
 #define OP 1.25e-5
 #define OQ 8.2e-6
 #define GT 1.4e-3
-#define BA 1.5
-#define BV 2.0
 #define TD 16
-#define TA 64
 #define TN 240
-#define VF 3.10e-3
 
 #define DO 1.82e-5
 #define OKV 8.2e-3
@@ -29,11 +25,6 @@
 #define GPC 1e-3
 #define GQC 1e-3
 #define GO 2.8e-3
-#define DB 9.1e-6
-#define BKV 8.2e-3
-#define BPC 0.2
-#define BQC 0.2
-#define BO 0.0
 
 #define AO 0.0
 #define DA 1.82e-4
